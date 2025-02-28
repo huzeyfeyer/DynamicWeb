@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+
+    // Geen parameters - lege haakjes nodig
+const bestelling1 = () => '';
+    
+    // Één parameter - haakjes mogen weg
+const bestelling2 = fanta => `${fanta}!`;
+
+// Meerdere parameters - haakjes nodig
+const bestelling3 = (sprite, nootjes) => a + b;
+
+// Real-world voorbeeld met DOM manipulatie
+document.querySelectorAll('.button')
+    .forEach(button => button.addEventListener('click', () => {
+        button.classList.toggle('active');
+    }));
+
+
+
+
+     // Test je functies hier
+     const output = document.getElementById('output');
+        
+        // Voeg deze tests toe nadat je de functies hebt herschreven
+        output.innerHTML += `2 + 3 = ${telOp(2, 3)}<br>`;
+        output.innerHTML += `Is 4 even? ${isEvenGetal(4)}<br>`;
+        output.innerHTML += zegHallo();
+    
+    </script>
+</body>
+</html>
